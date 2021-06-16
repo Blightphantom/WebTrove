@@ -39,7 +39,17 @@ header li a {        /* navbar elements */
     text-decoration: none;
 }
 /* ------------------- END ----------------- */
+
+
+
 /* WORK IN PROGRESS HEADING BOX MAY BREAK STUFF */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .centerbox {
   color: white;
   background: rgba(0, 0, 0, 0.5);
@@ -61,15 +71,4 @@ header li a {        /* navbar elements */
   margin-top: 2px;                    /* WORK IN PROGRESS MAY BREAK STUFF */
 }
 
-.color {
-  background: #06c;
-  flex: 0 0 120px;
-}
-
-.center {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 /* ------------------- END ----------------- */
