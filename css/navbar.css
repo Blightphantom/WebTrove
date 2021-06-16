@@ -5,8 +5,6 @@ header img {
 }
 body {
     height: 125vh; /* do not edit this */
-    background-size: cover;
-    font-family: sans-serif;
     margin-top: 80px; /* do not edit this */
     padding: 30px; /* do not edit this */
 }
