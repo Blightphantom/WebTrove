@@ -1,0 +1,18 @@
+body {
+  font: 36px Arial, sans-serif;
+}
+
+.centerbox {
+  color: white;
+  background: #ffbd17;
+  width: 400px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color {
+  background: #06c;
+  flex: 0 0 120px;
+}
