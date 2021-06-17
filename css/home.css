@@ -48,7 +48,7 @@ header li a {        /* navbar elements */
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 30px;
+  margin-bottom: 30px;
 }
 
 .centerbox {
