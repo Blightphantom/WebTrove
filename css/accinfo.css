@@ -3,6 +3,15 @@
   box-sizing: border-box;
   color: white;
 }
+
+hr {
+  border-style: dotted none none;
+  height: 10px;
+  border-width: 7px;
+  width: 5%;
+  border-color: grey;
+  opacity: 0.5;
+}
 /* --------------- NAVBAR CSS -------------- */
 header img {
     height: 80px;        /* header img size/padding */
