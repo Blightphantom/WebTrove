@@ -1,15 +1,17 @@
 /* --------------- NAVBAR CSS -------------- */
+header img {
+    height: 80px;        /* header img size/padding */
+    margin-left: 20px;
+}
 body {
     height: 125vh; /* do not edit this */
-    background-image: url('../images/home.jpeg'); /* background image */
-    background-size: cover;
-    font-family: sans-serif;
+    background-image: url('../images/home.jpeg');
     margin-top: 80px; /* do not edit this */
     padding: 30px; /* do not edit this */
 }
 
 main {
-    color: white; /* text color for main, can edit accordingly */
+    color: black; /* text color for main, can edit accordingly */
 }
 
 header {
