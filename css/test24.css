@@ -39,37 +39,23 @@ header li a {        /* navbar elements */
     text-decoration: none;
 }
 /* ------------------- END ----------------- */
-/* WORK IN PROGRESS HEADING BOX MAY BREAK STUFF */
-.centerbox {
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  width: 50%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+.overlay h1 {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
 }
 
-.centerbox h1 {
-  font-size: 30px;
-  margin-bottom: 2px;
+.overlay p {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
 }
-
-.centerbox p {
-  font-size: 20px;
-  margin-top: 2px;                    /* WORK IN PROGRESS MAY BREAK STUFF */
-}
-
-.color {
-  background: #06c;
-  flex: 0 0 120px;
-}
-
-.center {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* ------------------- END ----------------- */
