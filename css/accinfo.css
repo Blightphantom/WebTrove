@@ -1,0 +1,112 @@
+/* Css for AccInformation */
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+hr {
+  border-style: dotted none none;
+  height: 10px;
+  border-width: 7px;
+  width: 5%;
+  border-color: grey;
+  opacity: 0.5;
+}
+/* --------------- NAVBAR CSS -------------- */
+header img {
+    height: 80px;        /* header img size/padding */
+    margin-left: 20px;
+}
+body {
+    margin: 0;
+    height: 125vh; /* do not edit this */
+    background-image: url("../images/4.jpg");
+    margin-top: 80px; /* do not edit this */
+    padding: 30px; /* do not edit this */
+}
+
+main {
+    color: black; /* text color for main, can edit accordingly */
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;         /* best if not edited, no reason to edit header anyway */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {     /* inline display for navbar elements */
+    display: inline;
+}
+
+header li {  /* spacing out navbar elements */
+    margin: 20px;
+}
+
+header li a {        /* navbar elements */
+    color: black;
+    text-decoration: none;
+}
+/* ------------------- END ----------------- */
+
+
+/* IMAGE BOXES ----------------------------- */
+.imgbox {
+  /* Full height/dont edit */
+  height: 50%;
+
+  /* Center and scale the image*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url("../images/2.jpg")
+}
+/* ------------------- END ----------------- */
+
+/* SIDE BOXES ----------------------- */
+.sideboxes {
+  width: 100%;
+  height: 200px;
+}
+/* ------------------- END ----------------- */
+
+
+
+.box {
+  color: white;
+  background: rgba(245, 33, 30, 0.325);
+  width: 25%;
+  float: left;
+  margin: 50px;
+}
+
+.box h4 {
+  margin-left: 15px;
+  margin-bottom: 2px;
+}
+
+.pageheading {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.box1 {
+  background: rgba(245, 33, 30, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}

@@ -7,13 +7,12 @@ body {
     height: 125vh; /* do not edit this */
     background-image: url('../images/home.jpeg');
     background-size: cover;
-    font-family: sans-serif;
     margin-top: 80px; /* do not edit this */
     padding: 30px; /* do not edit this */
 }
 
 main {
-    color: white; /* text color for main, can edit accordingly */
+    color: black; /* text color for main, can edit accordingly */
 }
 
 header {
@@ -41,3 +40,78 @@ header li a {        /* navbar elements */
     text-decoration: none;
 }
 /* ------------------- END ----------------- */
+
+
+
+/* WORK IN PROGRESS HEADING BOX MAY BREAK STUFF */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.centerbox {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.centerbox h1 {
+  font-size: 30px;
+  margin-bottom: 2px;
+}
+
+.centerbox p {
+  font-size: 20px;
+  margin-top: 2px;                    /* WORK IN PROGRESS MAY BREAK STUFF */
+}
+
+/* ------------------- END ----------------- */
+
+
+
+/* INFO BOXES */
+.left {
+ display: flex;
+ justify-content: left;
+ align-items: left;
+ flex-direction: column;
+}
+
+.leftbox {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  height: 30%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  padding: 5px 16px;
+  margin: 0;
+}
+
+
+/* ------------------- END ----------------- */
+
+/* WIP SECTION */
+.neontext {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+/* END ---------------------------------------------- */
